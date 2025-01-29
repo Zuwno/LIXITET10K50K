@@ -7,9 +7,9 @@ const happyNewYearText = document.querySelector("h2");
 const music = document.getElementById("music");  
 
 const moneyImages = [
-  { image: "10k.png", probability: 0.5, message: "Bạn đã trúng 10.000 VNĐ! 🎉", song: "sounds/10kSong.mp3" },  // 50%
-  { image: "20k.png", probability: 0.3, message: "Bạn đã trúng 20.000 VNĐ! 🎉", song: "sounds/20kSong.mp3" },  // 30%
-  { image: "50k.png", probability: 0.2, message: "Bạn đã trúng 50.000 VNĐ! 🎉" , song: "sounds/500kSong.mp3" },  // 20%
+  { image: "10k.png", probability: 0.7, message: "Bạn đã trúng 10.000 VNĐ! 🎉", song: "sounds/10kSong.mp3" },  // 70%
+  { image: "20k.png", probability: 0.2, message: "Bạn đã trúng 20.000 VNĐ! 🎉", song: "sounds/20kSong.mp3" },  // 20%
+  { image: "50k.png", probability: 0.1, message: "Bạn đã trúng 50.000 VNĐ! 🎉" , song: "sounds/500kSong.mp3" },  // 10%
 ];
 let isLiXiOpen = false;
 
